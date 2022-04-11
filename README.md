@@ -123,9 +123,10 @@ This app will let you chosee between different popular options for your next tra
 
 ### [BONUS] Digital Wireframes & Mockups
 
-
-
 ### [BONUS] Interactive Prototype
+
+![vacationApp2](https://user-images.githubusercontent.com/92124196/162827667-f79ff4f8-f304-4224-9cc5-f94a5d0d5c92.gif)
+
 
 ## Schema 
 

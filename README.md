@@ -59,6 +59,7 @@ This app will help you find your next travel destination by recommending popular
 - [x] Login
    * Username & password
 - [x] Main Activity Design
+   - [x] Add profile photo
    - [ ] Allow user to find a particular place
    - [ ] Find recent trips
    - [ ] Show most popular travel options

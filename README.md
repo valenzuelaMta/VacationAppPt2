@@ -120,7 +120,14 @@ This app will help you find your next travel destination by recommending popular
 
 ### [BONUS] Digital Wireframes & Mockups
 
+![Screen Shot 2022-04-19 at 4 13 24 PM](https://user-images.githubusercontent.com/92124196/164111553-bdcec883-7249-466e-9419-6b36cfe196a6.jpg)
+![Screen Shot 2022-04-19 at 4 14 52 PM](https://user-images.githubusercontent.com/92124196/164111568-4b926051-c195-44b1-ac51-4f8a0c0df16e.jpg)
+
+
 ### [BONUS] Interactive Prototype
+
+
+![vacationApp3](https://user-images.githubusercontent.com/92124196/164111584-de4b679b-5bbe-4ca8-afc1-3aa457939841.gif)
 
 
 

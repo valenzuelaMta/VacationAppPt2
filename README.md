@@ -56,22 +56,22 @@ This app will help you find your next travel destination by recommending popular
 
 **Required Must-have Stories**
 
-* Login
+- [x] Login
    * Username & password
-* Main Activity
-   * Allow user to find a particular place
-   * Find recent trips
-   * Show most popular travel options
-* Detail Activity
+- [x] Main Activity Design
+   - [ ] Allow user to find a particular place
+   - [ ] Find recent trips
+   - [ ] Show most popular travel options
+- [ ] Detail Activity
    * Image/Youtube tour
    * Description
    * Rating
    * Budget
    * Weather
-* Profile
+- [ ] Profile
    * Records of the user
    * Add new
-* Other options?
+- [ ] Other options?
 
 
 **Optional Nice-to-have Stories**

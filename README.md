@@ -6,33 +6,39 @@ Original App Design Project
 ## Table of Contents
 1. [Overview](#Overview)
 
-This app will let you chosee between different popular options for your next travel destination after your favored scenery, budget, time of the vacation, weather, preferred activity, and other variables to show you the top places for your next trip.
+This app will help you find your next travel destination by recommending popular places while also allowing you to look for a particular place following its details such as scenery, budget, time of the vacation, weather, and other variables.
 
 
-3. [Product Spec](#Product-Spec)
+2. [Product Spec](#Product-Spec)
 
-Recommend vacation places after user preferences.
-
-
-5. [Wireframes](#Wireframes)
-
-- Welcome & login.
-- Places you have visited before.
-- Budget.
-- Time of vacation.
-- Weather.
-- Travel topics.
-- Travel places.
-- Recommendation feed.
-- Youtube tour/guide.
+Recommend travel destinations after user preferences.
 
 
-7. [Schema](#Schema)
+3. [Wireframes](#Wireframes)
+* Login
+   * Username & password
+* Main Activity
+   * Allow user to find a particular place
+   * Find recent trips
+   * Show most popular travel options
+* Detail Activity
+   * Image/Youtube tour
+   * Description
+   * Rating
+   * Budget
+   * Weather
+* Profile
+   * Records of the user
+   * Add new
+* Other options?
+
+
+4. [Schema](#Schema)
 
 User recommendations after logged successfully into account. Bottom navigation view.
 
 ### Description
-This app will let you chosee between different popular options for your next travel destination after your favored scenery, budget, time of the vacation, weather, preferred activity, and other variables to show you the top places for your next trip.
+This app will help you find your next travel destination by recommending popular places while also allowing you to look for a particular place following its details such as scenery, budget, time of the vacation, weather, and other variables.
 
 
 ### App Evaluation
@@ -41,7 +47,7 @@ This app will let you chosee between different popular options for your next tra
 - **Mobile:** Movile App
 - **Story:** Find your next trip
 - **Market:** Travel lovers
-- **Habit:** Personalized depending on user input
+- **Habit:** Unique recommendations and option to look for a particular place.
 - **Scope:** Recommendation App
 
 ## Product Spec
@@ -50,15 +56,22 @@ This app will let you chosee between different popular options for your next tra
 
 **Required Must-have Stories**
 
-* Welcome & login.
-* Places you have visited before.
-* Budget.
-* Time of vacation.
-* Weather.
-* Travel topics.
-* Travel places.
-* Recommendation feed.
-* Youtube tour/guide.
+* Login
+   * Username & password
+* Main Activity
+   * Allow user to find a particular place
+   * Find recent trips
+   * Show most popular travel options
+* Detail Activity
+   * Image/Youtube tour
+   * Description
+   * Rating
+   * Budget
+   * Weather
+* Profile
+   * Records of the user
+   * Add new
+* Other options?
 
 
 **Optional Nice-to-have Stories**
@@ -74,35 +87,19 @@ This app will let you chosee between different popular options for your next tra
 * Login
    * Username & password
 * Main Activity
+   * Allow user to find a particular place
+   * Find recent trips
    * Show most popular travel options
-* Option 1
-   * Show top places to travel according to the user preferences
+* Detail Activity
    * Image/Youtube tour
    * Description
    * Rating
-* Option 2
-   * Show top places to travel according to the user preferences
-   * Image/Youtube tour
-   * Description
-   * Rating
-* Option 3
-   * Show top places to travel according to the user preferences
-   * Image/Youtube tour
-   * Description
-   * Rating
-* Option 4
-   * Show top places to travel according to the user preferences
-   * Image/Youtube tour
-   * Description
-   * Rating
-* Additional option
-   * Show top places to travel according to the user preferences
-   * Image/Youtube tour
-   * Description
-   * Rating
-* Places you have visited before
+   * Budget
+   * Weather
+* Profile
    * Records of the user
    * Add new
+* Other options?
 
 ### 3. Navigation
 
@@ -110,14 +107,14 @@ This app will let you chosee between different popular options for your next tra
 
 * Login
 * Main Activity
-* Selected option
-* Recommendations
+* Detail Activity
+* More options
 
 **Flow Navigation** (Screen to Screen)
 
 * Login -> Main Activity
-* Main Activity -> Selected Option
-* Selected Option -> Access user records
+* Main Activity -> Selected Option -> Detail Activity/Profile/Other options
+* Return options
 
 ## Wireframes
 
@@ -125,7 +122,7 @@ This app will let you chosee between different popular options for your next tra
 
 ### [BONUS] Interactive Prototype
 
-![vacationApp2](https://user-images.githubusercontent.com/92124196/162827667-f79ff4f8-f304-4224-9cc5-f94a5d0d5c92.gif)
+
 
 
 ## Schema 
@@ -136,7 +133,6 @@ This app will let you chosee between different popular options for your next tra
 | :---: | :---: | :---: |
 | objectId | String | unque identification object |
 | title | String | title of the wireframe |
-| option # | Number | number of the option |
 | weather | String | common type of weather |
 | budget | String | preferred budget | 
 | time | Number | preferred time to travel |
@@ -147,7 +143,7 @@ This app will let you chosee between different popular options for your next tra
 
 
 ### Networking
-- Login 
+* Login 
   
 Parse.serverURL = 'https://parseapi.back4app.com'; 
   
@@ -170,6 +166,12 @@ dependencies {
     ...
     implementation "com.github.parse-community.Parse-SDK-Android:parse:1.18.5"
 }
+
+* Google places API
+
+
+
+
 
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]

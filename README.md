@@ -57,12 +57,12 @@ This app will help you find your next travel destination by recommending popular
 **Required Must-have Stories**
 
 - [x] Login
-   * Username & password
+   - [x] Username & password
 - [x] Main Activity Design
    - [x] Add profile photo
    - [ ] Allow user to find a particular place
-   - [ ] Find recent trips
-   - [ ] Show most popular travel options
+   - [x] Find recent trips
+   - [x] Show most popular travel options
 - [ ] Detail Activity
    * Image/Youtube tour
    * Description
@@ -177,7 +177,8 @@ dependencies {
 
 * Google places API
 
-
+### References
+Travel + Leisure  December 09, 2021. “The 50 Best Places to Travel in 2022.” Travel + Leisure, https://www.travelandleisure.com/trip-ideas/best-places-to-travel-in-2022. 
 
 
 

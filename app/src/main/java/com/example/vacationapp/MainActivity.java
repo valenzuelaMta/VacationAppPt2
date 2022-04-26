@@ -1,56 +1,71 @@
 package com.example.vacationapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.parse.ParseUser;
+import com.example.vacationapp.adapter.RecentsAdapter;
+import com.example.vacationapp.adapter.TopPlacesAdapter;
+import com.example.vacationapp.model.RecentsData;
+import com.example.vacationapp.model.TopPlacesData;
 
-import java.security.cert.PKIXRevocationChecker;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.RecursiveAction;
 
 public class MainActivity extends AppCompatActivity {
-//    private Button nextActivity1;
-//    private TextView titleMain;
-//    private TextView option1;
-//    private TextView weather1;
-//    private TextView budget1;
-//    private TextView time1;
+
+    RecyclerView recentRecycler, topPlacesRecycler;
+    RecentsAdapter recentsAdapter;
+    TopPlacesAdapter topPlacesAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        //RelativeLayout container;
-//        titleMain = findViewById(R.id.titleMain);
-//        option1 = findViewById(R.id.option1);
-//        weather1 = findViewById(R.id.weather1);
-//        budget1 = findViewById(R.id.budget1);
-//        time1 = findViewById(R.id.time1);
-//        //nextActivity1 = findViewById(R.id.nextActivity1);
-//        //container = findViewById(R.id.container);
-//        option1.setOnClickListener(new View.OnClickListener() {
+        // Now here we will add some dummy data in our model class
 
+        List<RecentsData> recentsDataList = new ArrayList<>();
+        recentsDataList.add(new RecentsData("Venice","Italy","$889 3-day trip",R.drawable.venice));
+        recentsDataList.add(new RecentsData("Chicago","Illinois","$700 3-day trip",R.drawable.chicago));
+        recentsDataList.add(new RecentsData("Sedona","Arizona","$300 3-day trip",R.drawable.sedona));
+        recentsDataList.add(new RecentsData("Rosarito","Baja California","$300 3-day trip",R.drawable.rosarito));
+        recentsDataList.add(new RecentsData("Austin","Texas","$300 3-day trip",R.drawable.austin));
+        recentsDataList.add(new RecentsData("Seattle","Washington","$500 3-day trip",R.drawable.seattle));
 
-//            @Override
-//            public void onClick(View view) {
-////                Toast.makeText(MainActivity.this, "Option 1", Toast.LENGTH_SHORT).show();
-////                //openOption1();
-////                Intent i = new Intent(MainActivity.this, Option1.class);
-////                //Intent i = new Intent(MainActivity.this, Option1.class);
-////                startActivity(i);
-//            }
-//        });
-//    }
-//    private void openOption1(){
-//        Intent intent = new Intent(this, Option1.class);
-//        startActivity(intent);
-   }
+        setRecentRecycler(recentsDataList);
+
+        List<TopPlacesData> topPlacesDataList = new ArrayList<>();
+        topPlacesDataList.add(new TopPlacesData("Crete","Greece","$900 3-day trip",R.drawable.crete));
+        topPlacesDataList.add(new TopPlacesData("Edinburgh","Scotland","$800 3-day trip",R.drawable.edinburgh));
+        topPlacesDataList.add(new TopPlacesData("Las Vegas","Nevada","$900 3-day trip",R.drawable.vegas));
+        topPlacesDataList.add(new TopPlacesData("Yucatan","Mexico","$500 3-day trip",R.drawable.yucatan));
+        topPlacesDataList.add(new TopPlacesData("Vancouver","Canada","$500 3-day trip",R.drawable.vancouver));
+
+        setTopPlacesRecycler(topPlacesDataList);
+    }
+
+    private  void setRecentRecycler(List<RecentsData> recentsDataList){
+
+        recentRecycler = findViewById(R.id.recent_recycler);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, RecyclerView.HORIZONTAL, false);
+        recentRecycler.setLayoutManager(layoutManager);
+        recentsAdapter = new RecentsAdapter(this, recentsDataList);
+        recentRecycler.setAdapter(recentsAdapter);
+
+    }
+
+    private  void setTopPlacesRecycler(List<TopPlacesData> topPlacesDataList){
+
+        topPlacesRecycler = findViewById(R.id.top_places_recycler);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, RecyclerView.VERTICAL, false);
+        topPlacesRecycler.setLayoutManager(layoutManager);
+        topPlacesAdapter = new TopPlacesAdapter(this, topPlacesDataList);
+        topPlacesRecycler.setAdapter(topPlacesAdapter);
+
+    }
 
 }

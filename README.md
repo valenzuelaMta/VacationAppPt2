@@ -123,6 +123,7 @@ This app will help you find your next travel destination by recommending popular
 
 ![Screen Shot 2022-04-19 at 4 13 24 PM](https://user-images.githubusercontent.com/92124196/164111553-bdcec883-7249-466e-9419-6b36cfe196a6.jpg)
 ![Screen Shot 2022-04-19 at 4 14 52 PM](https://user-images.githubusercontent.com/92124196/164111568-4b926051-c195-44b1-ac51-4f8a0c0df16e.jpg)
+![Screen Shot 2022-04-26 at 1 51 17 PM](https://user-images.githubusercontent.com/92124196/165381169-142cfe50-977b-4a6b-b1d5-59b6cd01deab.jpg)
 
 
 ### [BONUS] Interactive Prototype
@@ -130,6 +131,7 @@ This app will help you find your next travel destination by recommending popular
 
 ![vacationApp3](https://user-images.githubusercontent.com/92124196/164111584-de4b679b-5bbe-4ca8-afc1-3aa457939841.gif)
 
+![vacationApp4](https://user-images.githubusercontent.com/92124196/165381219-e657973c-88a3-4cf6-8aa8-74af6ef352e1.gif)
 
 
 

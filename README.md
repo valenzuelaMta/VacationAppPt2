@@ -21,7 +21,7 @@ Recommend travel destinations after user preferences.
    * Allow user to find a particular place
    * Find recent trips
    * Show most popular travel options
-* Detail Activity
+* Detail Activities
    * Image/Youtube tour
    * Description
    * Rating
@@ -29,7 +29,10 @@ Recommend travel destinations after user preferences.
    * Weather
 * Profile
    * Records of the user
-   * Add new
+* Search
+   * Search new places
+* Favorites
+   * Favorites of the user
 * Other options?
 
 
@@ -60,18 +63,17 @@ This app will help you find your next travel destination by recommending popular
    - [x] Username & password
 - [x] Main Activity Design
    - [x] Add profile photo
-   - [ ] Allow user to find a particular place
    - [x] Find recent trips
    - [x] Show most popular travel options
-- [ ] Detail Activity
+- [x] Profile
+- [x] Search
+- [ ] Favorites
+- [ ] Detail Activities
    * Image/Youtube tour
    * Description
    * Rating
    * Budget
    * Weather
-- [ ] Profile
-   * Records of the user
-   * Add new
 - [ ] Other options?
 
 
@@ -91,7 +93,7 @@ This app will help you find your next travel destination by recommending popular
    * Allow user to find a particular place
    * Find recent trips
    * Show most popular travel options
-* Detail Activity
+* Detail Activities
    * Image/Youtube tour
    * Description
    * Rating
@@ -99,7 +101,10 @@ This app will help you find your next travel destination by recommending popular
    * Weather
 * Profile
    * Records of the user
-   * Add new
+* Search
+   * Search new places
+* Favorites
+   * Favorites of the user
 * Other options?
 
 ### 3. Navigation
@@ -108,25 +113,23 @@ This app will help you find your next travel destination by recommending popular
 
 * Login
 * Main Activity
-* Detail Activity
+* Profile
+* Search
+* Favorites
+* Detail Activities
 * More options
 
 **Flow Navigation** (Screen to Screen)
 
 * Login -> Main Activity
-* Main Activity -> Selected Option -> Detail Activity/Profile/Other options
+* Main Activity -> Selected Option -> Detail Activity/Profile/Search/Favorites
 * Return options
 
 ## Wireframes
 
-### [BONUS] Digital Wireframes & Mockups
+### Digital Wireframes & Mockups
 
-![Screen Shot 2022-04-19 at 4 13 24 PM](https://user-images.githubusercontent.com/92124196/164111553-bdcec883-7249-466e-9419-6b36cfe196a6.jpg)
-![Screen Shot 2022-04-19 at 4 14 52 PM](https://user-images.githubusercontent.com/92124196/164111568-4b926051-c195-44b1-ac51-4f8a0c0df16e.jpg)
-![Screen Shot 2022-04-26 at 1 51 17 PM](https://user-images.githubusercontent.com/92124196/165381169-142cfe50-977b-4a6b-b1d5-59b6cd01deab.jpg)
-
-
-### [BONUS] Interactive Prototype
+### Interactive Prototype
 
 
 ![vacationApp3](https://user-images.githubusercontent.com/92124196/164111584-de4b679b-5bbe-4ca8-afc1-3aa457939841.gif)

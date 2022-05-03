@@ -11,10 +11,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="0dp"
-        android:layout_height="180dp"
+        android:layout_height="150dp"
         android:background="@drawable/home_bg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -24,11 +23,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="24dp"
-
-            android:text="Find Your"
+            android:layout_marginTop="60dp"
+            android:text="Welcome back Natalia,"
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
+            android:textSize="25sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,10 +35,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-
-            android:text="Next Destination"
+            android:text=""
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="0sp"
             app:layout_constraintStart_toStartOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -48,28 +45,22 @@
             android:id="@+id/imageView"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="60dp"
             android:layout_marginEnd="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/my_photo"
             tools:srcCompat="@drawable/my_photo" />
 
-        <EditText
+        <TextView
             android:id="@+id/editText"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:layout_marginTop="22dp"
-
-            android:background="#FAFAFA"
+            android:layout_marginTop="1dp"
+            android:text="Find your next destination!"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
             android:backgroundTint="#F3ECEC"
-            android:drawableLeft="@drawable/ic_baseline_search_24"
-            android:drawablePadding="16dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:paddingStart="16dp"
-            android:hint="Search Destinations"
-            android:textColor="#62878F"
             app:layout_constraintEnd_toEndOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="@+id/textView2"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -143,27 +134,32 @@
 
 
         <ImageView
+            android:id="@+id/home"
             android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_height="28dp"
             android:layout_weight="1"
-            android:src="@drawable/home" />
+            android:src="@drawable/home"
+            app:srcCompat="@drawable/ic_baseline_home_24" />
 
         <ImageView
+            android:id="@+id/profile"
             android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_height="28dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/profileicon" />
+            app:srcCompat="@drawable/ic_baseline_person_24" />
 
         <ImageView
+            android:id="@+id/favorites"
             android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_height="28dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/flights" />
+            app:srcCompat="@drawable/ic_baseline_favorite_24" />
 
         <ImageView
+            android:id="@+id/search"
             android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_height="28dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/hotel" />
+            app:srcCompat="@drawable/ic_baseline_search_24" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

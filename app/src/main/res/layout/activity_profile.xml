@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+    <ImageView
+        android:id="@+id/return1"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="350dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+    <ImageView
+        android:id="@+id/imageViewP"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/my_photo"
+        tools:srcCompat="@drawable/my_photo" />
+
+    <TextView
+        android:id="@+id/textViewP"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Natalia Mesta"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:textColor="#4A4545"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewP2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="@valenzuelaMta"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:textColor="#4A4545"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/textViewP3"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Edit Profile"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewP4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Log out"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:textColor="#4A4545"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textViewP5"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Delete account"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:textColor="#4A4545"
+        android:textSize="15sp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

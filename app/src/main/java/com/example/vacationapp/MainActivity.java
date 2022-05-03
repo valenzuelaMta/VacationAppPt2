@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.example.vacationapp.adapter.RecentsAdapter;
 import com.example.vacationapp.adapter.TopPlacesAdapter;
@@ -25,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        profile();
+        search();
 
         // Now here we will add some dummy data in our model class
 
@@ -66,6 +72,24 @@ public class MainActivity extends AppCompatActivity {
         topPlacesAdapter = new TopPlacesAdapter(this, topPlacesDataList);
         topPlacesRecycler.setAdapter(topPlacesAdapter);
 
+    }
+    private void profile(){
+        ImageView profile = (ImageView) findViewById(R.id.profile);
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Profile.class));
+            }
+        });
+    }
+    private void search(){
+        ImageView profile = (ImageView) findViewById(R.id.search);
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Search.class));
+            }
+        });
     }
 
 }

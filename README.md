@@ -18,7 +18,6 @@ Recommend travel destinations after user preferences.
 * Login
    * Username & password
 * Main Activity
-   * Allow user to find a particular place
    * Find recent trips
    * Show most popular travel options
 * Detail Activities
@@ -135,6 +134,9 @@ This app will help you find your next travel destination by recommending popular
 ![vacationApp3](https://user-images.githubusercontent.com/92124196/164111584-de4b679b-5bbe-4ca8-afc1-3aa457939841.gif)
 
 ![vacationApp4](https://user-images.githubusercontent.com/92124196/165381219-e657973c-88a3-4cf6-8aa8-74af6ef352e1.gif)
+
+
+![vacationApp5](https://user-images.githubusercontent.com/92124196/166587024-4e80a5d8-9e9e-4b11-9b7d-3438d5d2b552.gif)
 
 
 

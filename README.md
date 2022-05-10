@@ -6,30 +6,32 @@ Original App Design Project
 ## Table of Contents
 1. [Overview](#Overview)
 
-This app will help you find your next travel destination by recommending popular places while also allowing you to look for a particular place following its details such as scenery, budget, time of the vacation, weather, and other variables.
+This app will help you find your next travel destination by recommending popular places while also allowing you to look for a particular place following its details such as a description, photogallery, price range, rating, and available flights.
 
 
 2. [Product Spec](#Product-Spec)
 
-Recommend travel destinations after user preferences.
+Recommend popular travel destinations.
 
 
 3. [Wireframes](#Wireframes)
 * Login
    * Username & password
 * Main Activity
-   * Allow user to find a particular place
    * Find recent trips
    * Show most popular travel options
-* Detail Activity
-   * Image/Youtube tour
+* Detail Activities
    * Description
+   * Photogallery
+   * Price range
    * Rating
-   * Budget
-   * Weather
+   * Available flights
 * Profile
    * Records of the user
-   * Add new
+* Search
+   * Search new places
+* Favorites
+   * Favorites of the user
 * Other options?
 
 
@@ -38,7 +40,7 @@ Recommend travel destinations after user preferences.
 User recommendations after logged successfully into account. Bottom navigation view.
 
 ### Description
-This app will help you find your next travel destination by recommending popular places while also allowing you to look for a particular place following its details such as scenery, budget, time of the vacation, weather, and other variables.
+This app will help you find your next travel destination by recommending popular places while also allowing you to look for a particular place following its details such as a description, photogallery, price range, rating, and available flights.
 
 
 ### App Evaluation
@@ -60,19 +62,18 @@ This app will help you find your next travel destination by recommending popular
    - [x] Username & password
 - [x] Main Activity Design
    - [x] Add profile photo
-   - [ ] Allow user to find a particular place
    - [x] Find recent trips
    - [x] Show most popular travel options
-- [ ] Detail Activity
-   * Image/Youtube tour
+- [x] Profile
+- [x] Search
+- [x] Favorites
+- [x] Detail Activities
    * Description
+   * Photogallery
+   * Price range
    * Rating
-   * Budget
-   * Weather
-- [ ] Profile
-   * Records of the user
-   * Add new
-- [ ] Other options?
+   * Available flights
+- [ ] Additional options?
 
 
 **Optional Nice-to-have Stories**
@@ -91,16 +92,19 @@ This app will help you find your next travel destination by recommending popular
    * Allow user to find a particular place
    * Find recent trips
    * Show most popular travel options
-* Detail Activity
-   * Image/Youtube tour
+* Detail Activities
    * Description
+   * Photogallery
+   * Price range
    * Rating
-   * Budget
-   * Weather
+   * Available flights
 * Profile
    * Records of the user
-   * Add new
-* Other options?
+* Search
+   * Search new places
+* Favorites
+   * Favorites of the user
+* Additional options?
 
 ### 3. Navigation
 
@@ -108,30 +112,31 @@ This app will help you find your next travel destination by recommending popular
 
 * Login
 * Main Activity
-* Detail Activity
+* Profile
+* Search
+* Favorites
+* Detail Activities
 * More options
 
 **Flow Navigation** (Screen to Screen)
 
 * Login -> Main Activity
-* Main Activity -> Selected Option -> Detail Activity/Profile/Other options
+* Main Activity -> Selected Option -> Detail Activity/Profile/Search/Favorites
 * Return options
 
 ## Wireframes
 
-### [BONUS] Digital Wireframes & Mockups
+### Digital Wireframes & Mockups
 
-![Screen Shot 2022-04-19 at 4 13 24 PM](https://user-images.githubusercontent.com/92124196/164111553-bdcec883-7249-466e-9419-6b36cfe196a6.jpg)
-![Screen Shot 2022-04-19 at 4 14 52 PM](https://user-images.githubusercontent.com/92124196/164111568-4b926051-c195-44b1-ac51-4f8a0c0df16e.jpg)
-![Screen Shot 2022-04-26 at 1 51 17 PM](https://user-images.githubusercontent.com/92124196/165381169-142cfe50-977b-4a6b-b1d5-59b6cd01deab.jpg)
-
-
-### [BONUS] Interactive Prototype
+### Interactive Prototype
 
 
 ![vacationApp3](https://user-images.githubusercontent.com/92124196/164111584-de4b679b-5bbe-4ca8-afc1-3aa457939841.gif)
 
 ![vacationApp4](https://user-images.githubusercontent.com/92124196/165381219-e657973c-88a3-4cf6-8aa8-74af6ef352e1.gif)
+
+
+![vacationApp5](https://user-images.githubusercontent.com/92124196/166587024-4e80a5d8-9e9e-4b11-9b7d-3438d5d2b552.gif)
 
 
 
@@ -143,12 +148,12 @@ This app will help you find your next travel destination by recommending popular
 | :---: | :---: | :---: |
 | objectId | String | unque identification object |
 | title | String | title of the wireframe |
-| weather | String | common type of weather |
-| budget | String | preferred budget | 
-| time | Number | preferred time to travel |
-| image | File | image of the place |
-| description | String | description of the place |
-| rating | String | rating of the place|
+| description | String | brief description |
+| photogallery | File | images of the place | 
+| price range | Number | minimum and average prices |
+| rating | Number | rating of the place |
+| available flights | String | dates |
+
 
 
 

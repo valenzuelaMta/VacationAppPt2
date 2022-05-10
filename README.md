@@ -32,7 +32,7 @@ Recommend popular travel destinations.
    * Search new places
 * Favorites
    * Favorites of the user
-* Other options?
+* Additional options?
 
 
 4. [Schema](#Schema)
@@ -185,7 +185,12 @@ dependencies {
 * Google places API
 
 ### References
+
+“Cheap International Flights.” Budgetair.us, https://www.budgetair.com/en_us. 
+
 Travel + Leisure  December 09, 2021. “The 50 Best Places to Travel in 2022.” Travel + Leisure, https://www.travelandleisure.com/trip-ideas/best-places-to-travel-in-2022. 
+
+“Venice 2022: Best of Venice, Italy Tourism.” Tripadvisor, https://www.tripadvisor.com/Tourism-g187870-Venice_Veneto-Vacations.html. 
 
 
 

@@ -135,9 +135,9 @@ This app will help you find your next travel destination by recommending popular
 
 ![vacationApp4](https://user-images.githubusercontent.com/92124196/165381219-e657973c-88a3-4cf6-8aa8-74af6ef352e1.gif)
 
-
 ![vacationApp5](https://user-images.githubusercontent.com/92124196/166587024-4e80a5d8-9e9e-4b11-9b7d-3438d5d2b552.gif)
 
+![vacationApp6](https://user-images.githubusercontent.com/92124196/167742164-d5a649bd-67a1-463a-a105-0d62276f922b.gif)
 
 
 ## Schema 
@@ -191,8 +191,3 @@ dependencies {
 Travel + Leisure  December 09, 2021. “The 50 Best Places to Travel in 2022.” Travel + Leisure, https://www.travelandleisure.com/trip-ideas/best-places-to-travel-in-2022. 
 
 “Venice 2022: Best of Venice, Italy Tourism.” Tripadvisor, https://www.tripadvisor.com/Tourism-g187870-Venice_Veneto-Vacations.html. 
-
-
-
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]

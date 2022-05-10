@@ -45,4 +45,7 @@ dependencies {
 
     implementation 'com.github.parse-community.ParseUI-Android:widget:0.0.6'
 
+    implementation 'com.google.android.libraries.places:places:2.6.0'
+    implementation 'com.google.android.gms:play-services-maps:18.0.0'
+
 }

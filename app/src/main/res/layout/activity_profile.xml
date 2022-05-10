@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/return1"
         android:layout_width="40dp"
-        android:layout_height="100dp"
+        android:layout_height="20dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="350dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +67,7 @@
         android:textSize="12sp" />
 
     <TextView
-        android:id="@+id/textViewP4"
+        android:id="@+id/logOut"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:text="Log out"
@@ -78,6 +78,16 @@
         android:textAlignment="center"
         android:textColor="#4A4545"
         android:textSize="15sp" />
+    <Button
+        android:id="@+id/btnOut"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:text="Log out" />
 
     <TextView
         android:id="@+id/textViewP5"

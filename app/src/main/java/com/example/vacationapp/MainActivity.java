@@ -13,6 +13,7 @@ import com.example.vacationapp.adapter.RecentsAdapter;
 import com.example.vacationapp.adapter.TopPlacesAdapter;
 import com.example.vacationapp.model.RecentsData;
 import com.example.vacationapp.model.TopPlacesData;
+import com.parse.ParseUser;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         profile();
+        favorites();
         search();
 
         // Now here we will add some dummy data in our model class
@@ -79,6 +81,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, Profile.class));
+            }
+        });
+    }
+    private void favorites(){
+        ImageView favorites = (ImageView) findViewById(R.id.favorites);
+        favorites.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Favorites.class));
             }
         });
     }

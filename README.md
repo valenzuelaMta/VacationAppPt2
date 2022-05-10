@@ -6,12 +6,12 @@ Original App Design Project
 ## Table of Contents
 1. [Overview](#Overview)
 
-This app will help you find your next travel destination by recommending popular places while also allowing you to look for a particular place following its details such as scenery, budget, time of the vacation, weather, and other variables.
+This app will help you find your next travel destination by recommending popular places while also allowing you to look for a particular place following its details such as a description, photogallery, price range, rating, and available flights.
 
 
 2. [Product Spec](#Product-Spec)
 
-Recommend travel destinations after user preferences.
+Recommend popular travel destinations.
 
 
 3. [Wireframes](#Wireframes)
@@ -21,11 +21,11 @@ Recommend travel destinations after user preferences.
    * Find recent trips
    * Show most popular travel options
 * Detail Activities
-   * Image/Youtube tour
    * Description
+   * Photogallery
+   * Price range
    * Rating
-   * Budget
-   * Weather
+   * Available flights
 * Profile
    * Records of the user
 * Search
@@ -40,7 +40,7 @@ Recommend travel destinations after user preferences.
 User recommendations after logged successfully into account. Bottom navigation view.
 
 ### Description
-This app will help you find your next travel destination by recommending popular places while also allowing you to look for a particular place following its details such as scenery, budget, time of the vacation, weather, and other variables.
+This app will help you find your next travel destination by recommending popular places while also allowing you to look for a particular place following its details such as a description, photogallery, price range, rating, and available flights.
 
 
 ### App Evaluation
@@ -66,14 +66,14 @@ This app will help you find your next travel destination by recommending popular
    - [x] Show most popular travel options
 - [x] Profile
 - [x] Search
-- [ ] Favorites
-- [ ] Detail Activities
-   * Image/Youtube tour
+- [x] Favorites
+- [x] Detail Activities
    * Description
+   * Photogallery
+   * Price range
    * Rating
-   * Budget
-   * Weather
-- [ ] Other options?
+   * Available flights
+- [ ] Additional options?
 
 
 **Optional Nice-to-have Stories**
@@ -93,18 +93,18 @@ This app will help you find your next travel destination by recommending popular
    * Find recent trips
    * Show most popular travel options
 * Detail Activities
-   * Image/Youtube tour
    * Description
+   * Photogallery
+   * Price range
    * Rating
-   * Budget
-   * Weather
+   * Available flights
 * Profile
    * Records of the user
 * Search
    * Search new places
 * Favorites
    * Favorites of the user
-* Other options?
+* Additional options?
 
 ### 3. Navigation
 
@@ -148,12 +148,12 @@ This app will help you find your next travel destination by recommending popular
 | :---: | :---: | :---: |
 | objectId | String | unque identification object |
 | title | String | title of the wireframe |
-| weather | String | common type of weather |
-| budget | String | preferred budget | 
-| time | Number | preferred time to travel |
-| image | File | image of the place |
-| description | String | description of the place |
-| rating | String | rating of the place|
+| description | String | brief description |
+| photogallery | File | images of the place | 
+| price range | Number | minimum and average prices |
+| rating | Number | rating of the place |
+| available flights | String | dates |
+
 
 
 
